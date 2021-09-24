@@ -65,16 +65,16 @@ body {
   -webkit-font-smoothing: antialiased; }
 
 ::selection {
-  background: #6699CC; }
+  background: #ffffff; }
 
 ::-moz-selection {
-  background: #6699CC; }
+  background: #ffffff; }
 
 a {
   text-decoration: none;
   color: #DF9C81; }
   a:hover {
-    color: #6699CC;
+    color: #ffffff;
     -o-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
@@ -250,7 +250,7 @@ table thead tbody {
 .footer {
     position: absolute;
     font-size: .7em;
-    color: #b3b3b3;
+    color: #000000;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -260,16 +260,16 @@ table thead tbody {
 .logo {
   border-radius: 50%;
   border: 2px solid #FFF;
-  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.3);
   transition:all .6s; }
 
 .logo:hover {
-  border: 3px solid #6699CC;
+  border: 3px solid #ffffff;
 transition:all .5s;
 transform:rotate(360deg);
 -ms-transform:rotate(360deg); 	/* IE 9 */
 -moz-transform:rotate(360deg); 	/* Firefox */
--webkit-transform:rotate(360deg); /* Safari ºÍ Chrome */
+-webkit-transform:rotate(360deg); /* Safari ï¿½ï¿½ Chrome */
 -o-transform:rotate(350deg); 	/* Opera */
 }
 
@@ -338,7 +338,7 @@ hr {
   margin: 15px 0;
   font-size: 2.5em;
   letter-spacing: 4px;
-  color: #FFF; }
+  color: #000; }
 
 .panel-subtitle {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
@@ -346,7 +346,7 @@ hr {
   line-height: 1.4em;
   font-weight: lighter;
   letter-spacing: 3px;
-  color: #CCCCCC;
+  color: #000000;
   -webkit-font-smoothing: antialiased; }
 
 .panel-cover {
@@ -371,9 +371,9 @@ hr {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(68, 68, 68, 0.6);
-  background-image: -webkit-linear-gradient(-410deg, rgba(68, 68, 68, 0.6) 20%, rgba(0, 0, 0, 0.9));
-  background-image: linear-gradient(140deg,rgba(68, 68, 68, 0.6) 20%, rgba(0, 0, 0, 0.9)); }
+  background-color: rgba(255, 255, 255, 0.6);
+  background-image: -webkit-linear-gradient(-410deg, rgba(255, 255, 255, 0.1) 20%, rgba(255, 255, 255, 0.3));
+  background-image: linear-gradient(140deg,rgba(255, 255, 255, 0.1) 20%, rgba(255, 255, 255, 0.3)); }
 
 .panel-cover__logo {
   margin-bottom: .2em; }
@@ -519,15 +519,15 @@ hr {
   left: 0;
   width: 100%;
   height: 35px;
-  background: rgba(51, 51, 51, 0.98);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
   text-align: center; }
 
 .btn-mobile-menu__icon,
 .btn-mobile-close__icon {
   position: relative;
   top: 10px;
-  color: #FFF; }
+  color: rgb(0, 0, 0); }
 
 nav {
   display: inline-block;
@@ -547,14 +547,14 @@ nav {
   .navigation__item a {
     display: block;
     position: relative;
-    border-color: #FFF;
-    color: #FFF;
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     opacity: .8;
     transition:all .3s }
     .navigation__item a:hover {
-      color: #FFF;
-      background:#6699CC;
-      border-color: #6699CC;
+      color: rgb(255, 255, 255);
+      background:#000000;
+      border-color: #000000;
       opacity: 1;
       transition:all .3s; }
 
@@ -611,7 +611,7 @@ i {
     bottom: 42px;
     left: -28px;
     text-align: center;
-    background-color: #fff;
+    background-color: rgb(0, 0, 0);
 }
 .wechat .qrCode .triangle-down[data-v] {
     position: absolute;
@@ -620,7 +620,7 @@ i {
     margin-left: -6px;
     width: 0;
     height: 0;
-    border-top: 10px solid #fff;
+    border-top: 10px solid rgb(0, 0, 0);
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
 }
@@ -698,8 +698,8 @@ i {
     left: 0;
     width: 100%;
     padding: 20px 0;
-    background: rgba(51, 51, 51, 0.98);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255); }
     .navigation-wrapper.visible {
       display: block; }
 
